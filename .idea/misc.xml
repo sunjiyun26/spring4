@@ -17,6 +17,7 @@
       <set>
         <option value="$PROJECT_DIR$/spring-web/pom.xml" />
         <option value="$PROJECT_DIR$/spring4-jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/spring4-web/pom.xml" />
       </set>
     </option>
   </component>

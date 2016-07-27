@@ -12,6 +12,7 @@
         <module>spring-base</module>
         <module>spring-controller</module>
         <module>spring4-web</module>
+
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

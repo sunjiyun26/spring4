@@ -42,7 +42,12 @@
         <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="spring4-web" />
+      </profile>
+      <profile default="false" name="Annotation profile for spring4-webservice" enabled="true">
+        <sourceOutputDir name="target\generated-sources\annotations" />
+        <sourceTestOutputDir name="target\generated-test-sources\test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <processorPath useClasspath="true" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -51,6 +56,7 @@
       <module name="spring-web" target="1.7" />
       <module name="spring4" target="1.7" />
       <module name="spring4-web" target="1.7" />
+      <module name="spring4-webservice" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
